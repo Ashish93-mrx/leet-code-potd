@@ -31,7 +31,7 @@
                 else if((data[i+j]&192) != 128){
                     return false;
                 }
-            }
+            }  
             
             i+=bytes-1;
         }
